@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__Custom_TableView_kullanımı" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aCP-Tc-ftL">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="GXS-Q7-me3" customClass="TableViewCell" customModule="__Custom_TableView_kullanımı" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GXS-Q7-me3" id="MzQ-z3-Nau">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aI2-Gz-hr1">
+                                                    <rect key="frame" x="20" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qaq-CE-OZs">
+                                                    <rect key="frame" x="20" y="68" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYT-CS-qpk">
+                                                    <rect key="frame" x="352" y="68" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jff-IW-G2R">
+                                                    <rect key="frame" x="350" y="34.5" width="64" height="31"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Yazdır"/>
+                                                    <connections>
+                                                        <action selector="btnYazdir:" destination="GXS-Q7-me3" eventType="touchUpInside" id="Oi3-TV-RSX"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jff-IW-G2R" firstAttribute="centerY" secondItem="MzQ-z3-Nau" secondAttribute="centerY" id="3kY-4N-MZp"/>
+                                                <constraint firstAttribute="trailing" secondItem="jff-IW-G2R" secondAttribute="trailing" id="4Wt-Ev-voi"/>
+                                                <constraint firstItem="Qaq-CE-OZs" firstAttribute="leading" secondItem="MzQ-z3-Nau" secondAttribute="leadingMargin" id="5DL-A5-xPv"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Qaq-CE-OZs" secondAttribute="bottom" id="8S2-mB-ZKf"/>
+                                                <constraint firstItem="dYT-CS-qpk" firstAttribute="trailing" secondItem="MzQ-z3-Nau" secondAttribute="trailingMargin" id="BxR-fE-bap"/>
+                                                <constraint firstItem="aI2-Gz-hr1" firstAttribute="leading" secondItem="MzQ-z3-Nau" secondAttribute="leadingMargin" id="C4A-CN-tjK"/>
+                                                <constraint firstItem="dYT-CS-qpk" firstAttribute="bottom" secondItem="MzQ-z3-Nau" secondAttribute="bottomMargin" id="sXe-IO-9jq"/>
+                                                <constraint firstItem="aI2-Gz-hr1" firstAttribute="top" secondItem="MzQ-z3-Nau" secondAttribute="topMargin" id="x7O-8a-h6Q"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblAd" destination="Qaq-CE-OZs" id="c3m-QZ-LGt"/>
+                                            <outlet property="lblId" destination="aI2-Gz-hr1" id="ceZ-nM-WhP"/>
+                                            <outlet property="lblTel" destination="dYT-CS-qpk" id="OOe-g4-rd2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aCP-Tc-ftL" secondAttribute="trailing" id="7Na-Aw-P2Q"/>
+                            <constraint firstItem="aCP-Tc-ftL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cC4-qB-ocx"/>
+                            <constraint firstItem="aCP-Tc-ftL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oee-sP-VcB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aCP-Tc-ftL" secondAttribute="bottom" id="w36-CO-mey"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="aCP-Tc-ftL" id="sCb-aP-f4C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

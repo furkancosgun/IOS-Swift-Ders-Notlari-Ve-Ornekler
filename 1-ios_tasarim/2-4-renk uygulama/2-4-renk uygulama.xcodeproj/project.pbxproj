@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454A586E28AAC1A600EF9CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A586D28AAC1A600EF9CCD /* AppDelegate.swift */; };
+		454A587028AAC1A600EF9CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A586F28AAC1A600EF9CCD /* SceneDelegate.swift */; };
+		454A587228AAC1A600EF9CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A587128AAC1A600EF9CCD /* ViewController.swift */; };
+		454A587528AAC1A600EF9CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454A587328AAC1A600EF9CCD /* Main.storyboard */; };
+		454A587728AAC1A700EF9CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454A587628AAC1A700EF9CCD /* Assets.xcassets */; };
+		454A587A28AAC1A700EF9CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454A587828AAC1A700EF9CCD /* LaunchScreen.storyboard */; };
+		454A588528AAC1A700EF9CCD /* __4_renk_uygulamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A588428AAC1A700EF9CCD /* __4_renk_uygulamaTests.swift */; };
+		454A588F28AAC1A700EF9CCD /* __4_renk_uygulamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A588E28AAC1A700EF9CCD /* __4_renk_uygulamaUITests.swift */; };
+		454A589128AAC1A700EF9CCD /* __4_renk_uygulamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A589028AAC1A700EF9CCD /* __4_renk_uygulamaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		454A588128AAC1A700EF9CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454A586228AAC1A600EF9CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454A586928AAC1A600EF9CCD;
+			remoteInfo = "2-4-renk uygulama";
+		};
+		454A588B28AAC1A700EF9CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454A586228AAC1A600EF9CCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454A586928AAC1A600EF9CCD;
+			remoteInfo = "2-4-renk uygulama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		454A586A28AAC1A600EF9CCD /* 2-4-renk uygulama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-4-renk uygulama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A586D28AAC1A600EF9CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		454A586F28AAC1A600EF9CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		454A587128AAC1A600EF9CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		454A587428AAC1A600EF9CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454A587628AAC1A700EF9CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454A587928AAC1A700EF9CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454A587B28AAC1A700EF9CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454A588028AAC1A700EF9CCD /* 2-4-renk uygulamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2-4-renk uygulamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A588428AAC1A700EF9CCD /* __4_renk_uygulamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __4_renk_uygulamaTests.swift; sourceTree = "<group>"; };
+		454A588A28AAC1A700EF9CCD /* 2-4-renk uygulamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2-4-renk uygulamaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A588E28AAC1A700EF9CCD /* __4_renk_uygulamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __4_renk_uygulamaUITests.swift; sourceTree = "<group>"; };
+		454A589028AAC1A700EF9CCD /* __4_renk_uygulamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __4_renk_uygulamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454A586728AAC1A600EF9CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A587D28AAC1A700EF9CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A588728AAC1A700EF9CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454A586128AAC1A600EF9CCD = {
+			isa = PBXGroup;
+			children = (
+				454A586C28AAC1A600EF9CCD /* 2-4-renk uygulama */,
+				454A588328AAC1A700EF9CCD /* 2-4-renk uygulamaTests */,
+				454A588D28AAC1A700EF9CCD /* 2-4-renk uygulamaUITests */,
+				454A586B28AAC1A600EF9CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		454A586B28AAC1A600EF9CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454A586A28AAC1A600EF9CCD /* 2-4-renk uygulama.app */,
+				454A588028AAC1A700EF9CCD /* 2-4-renk uygulamaTests.xctest */,
+				454A588A28AAC1A700EF9CCD /* 2-4-renk uygulamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454A586C28AAC1A600EF9CCD /* 2-4-renk uygulama */ = {
+			isa = PBXGroup;
+			children = (
+				454A586D28AAC1A600EF9CCD /* AppDelegate.swift */,
+				454A586F28AAC1A600EF9CCD /* SceneDelegate.swift */,
+				454A587128AAC1A600EF9CCD /* ViewController.swift */,
+				454A587328AAC1A600EF9CCD /* Main.storyboard */,
+				454A587628AAC1A700EF9CCD /* Assets.xcassets */,
+				454A587828AAC1A700EF9CCD /* LaunchScreen.storyboard */,
+				454A587B28AAC1A700EF9CCD /* Info.plist */,
+			);
+			path = "2-4-renk uygulama";
+			sourceTree = "<group>";
+		};
+		454A588328AAC1A700EF9CCD /* 2-4-renk uygulamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				454A588428AAC1A700EF9CCD /* __4_renk_uygulamaTests.swift */,
+			);
+			path = "2-4-renk uygulamaTests";
+			sourceTree = "<group>";
+		};
+		454A588D28AAC1A700EF9CCD /* 2-4-renk uygulamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				454A588E28AAC1A700EF9CCD /* __4_renk_uygulamaUITests.swift */,
+				454A589028AAC1A700EF9CCD /* __4_renk_uygulamaUITestsLaunchTests.swift */,
+			);
+			path = "2-4-renk uygulamaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454A586928AAC1A600EF9CCD /* 2-4-renk uygulama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454A589428AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulama" */;
+			buildPhases = (
+				454A586628AAC1A600EF9CCD /* Sources */,
+				454A586728AAC1A600EF9CCD /* Frameworks */,
+				454A586828AAC1A600EF9CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2-4-renk uygulama";
+			productName = "2-4-renk uygulama";
+			productReference = 454A586A28AAC1A600EF9CCD /* 2-4-renk uygulama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		454A587F28AAC1A700EF9CCD /* 2-4-renk uygulamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454A589728AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulamaTests" */;
+			buildPhases = (
+				454A587C28AAC1A700EF9CCD /* Sources */,
+				454A587D28AAC1A700EF9CCD /* Frameworks */,
+				454A587E28AAC1A700EF9CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454A588228AAC1A700EF9CCD /* PBXTargetDependency */,
+			);
+			name = "2-4-renk uygulamaTests";
+			productName = "2-4-renk uygulamaTests";
+			productReference = 454A588028AAC1A700EF9CCD /* 2-4-renk uygulamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		454A588928AAC1A700EF9CCD /* 2-4-renk uygulamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454A589A28AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulamaUITests" */;
+			buildPhases = (
+				454A588628AAC1A700EF9CCD /* Sources */,
+				454A588728AAC1A700EF9CCD /* Frameworks */,
+				454A588828AAC1A700EF9CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454A588C28AAC1A700EF9CCD /* PBXTargetDependency */,
+			);
+			name = "2-4-renk uygulamaUITests";
+			productName = "2-4-renk uygulamaUITests";
+			productReference = 454A588A28AAC1A700EF9CCD /* 2-4-renk uygulamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454A586228AAC1A600EF9CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					454A586928AAC1A600EF9CCD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					454A587F28AAC1A700EF9CCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 454A586928AAC1A600EF9CCD;
+					};
+					454A588928AAC1A700EF9CCD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 454A586928AAC1A600EF9CCD;
+					};
+				};
+			};
+			buildConfigurationList = 454A586528AAC1A600EF9CCD /* Build configuration list for PBXProject "2-4-renk uygulama" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454A586128AAC1A600EF9CCD;
+			productRefGroup = 454A586B28AAC1A600EF9CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454A586928AAC1A600EF9CCD /* 2-4-renk uygulama */,
+				454A587F28AAC1A700EF9CCD /* 2-4-renk uygulamaTests */,
+				454A588928AAC1A700EF9CCD /* 2-4-renk uygulamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		454A586828AAC1A600EF9CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454A587A28AAC1A700EF9CCD /* LaunchScreen.storyboard in Resources */,
+				454A587728AAC1A700EF9CCD /* Assets.xcassets in Resources */,
+				454A587528AAC1A600EF9CCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A587E28AAC1A700EF9CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A588828AAC1A700EF9CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454A586628AAC1A600EF9CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454A587228AAC1A600EF9CCD /* ViewController.swift in Sources */,
+				454A586E28AAC1A600EF9CCD /* AppDelegate.swift in Sources */,
+				454A587028AAC1A600EF9CCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A587C28AAC1A700EF9CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454A588528AAC1A700EF9CCD /* __4_renk_uygulamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454A588628AAC1A700EF9CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454A589128AAC1A700EF9CCD /* __4_renk_uygulamaUITestsLaunchTests.swift in Sources */,
+				454A588F28AAC1A700EF9CCD /* __4_renk_uygulamaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		454A588228AAC1A700EF9CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454A586928AAC1A600EF9CCD /* 2-4-renk uygulama */;
+			targetProxy = 454A588128AAC1A700EF9CCD /* PBXContainerItemProxy */;
+		};
+		454A588C28AAC1A700EF9CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454A586928AAC1A600EF9CCD /* 2-4-renk uygulama */;
+			targetProxy = 454A588B28AAC1A700EF9CCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		454A587328AAC1A600EF9CCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454A587428AAC1A600EF9CCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		454A587828AAC1A700EF9CCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454A587928AAC1A700EF9CCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454A589228AAC1A700EF9CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		454A589328AAC1A700EF9CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		454A589528AAC1A700EF9CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2-4-renk uygulama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		454A589628AAC1A700EF9CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2-4-renk uygulama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		454A589828AAC1A700EF9CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-4-renk uygulama.app/2-4-renk uygulama";
+			};
+			name = Debug;
+		};
+		454A589928AAC1A700EF9CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-4-renk uygulama.app/2-4-renk uygulama";
+			};
+			name = Release;
+		};
+		454A589B28AAC1A700EF9CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2-4-renk uygulama";
+			};
+			name = Debug;
+		};
+		454A589C28AAC1A700EF9CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--4-renk-uygulamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2-4-renk uygulama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454A586528AAC1A600EF9CCD /* Build configuration list for PBXProject "2-4-renk uygulama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A589228AAC1A700EF9CCD /* Debug */,
+				454A589328AAC1A700EF9CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454A589428AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A589528AAC1A700EF9CCD /* Debug */,
+				454A589628AAC1A700EF9CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454A589728AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A589828AAC1A700EF9CCD /* Debug */,
+				454A589928AAC1A700EF9CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454A589A28AAC1A700EF9CCD /* Build configuration list for PBXNativeTarget "2-4-renk uygulamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454A589B28AAC1A700EF9CCD /* Debug */,
+				454A589C28AAC1A700EF9CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454A586228AAC1A600EF9CCD /* Project object */;
+}

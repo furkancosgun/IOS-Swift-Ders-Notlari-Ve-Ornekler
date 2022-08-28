@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4561AFF628B3F5770026B1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561AFF528B3F5770026B1DF /* AppDelegate.swift */; };
+		4561AFF828B3F5770026B1DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561AFF728B3F5770026B1DF /* SceneDelegate.swift */; };
+		4561AFFA28B3F5770026B1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561AFF928B3F5770026B1DF /* ViewController.swift */; };
+		4561AFFD28B3F5770026B1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4561AFFB28B3F5770026B1DF /* Main.storyboard */; };
+		4561AFFF28B3F5790026B1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4561AFFE28B3F5790026B1DF /* Assets.xcassets */; };
+		4561B00228B3F5790026B1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4561B00028B3F5790026B1DF /* LaunchScreen.storyboard */; };
+		4561B00D28B3F5790026B1DF /* __Time_picker_kullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561B00C28B3F5790026B1DF /* __Time_picker_kullanimiTests.swift */; };
+		4561B01728B3F5790026B1DF /* __Time_picker_kullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561B01628B3F5790026B1DF /* __Time_picker_kullanimiUITests.swift */; };
+		4561B01928B3F5790026B1DF /* __Time_picker_kullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561B01828B3F5790026B1DF /* __Time_picker_kullanimiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4561B00928B3F5790026B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4561AFEA28B3F5770026B1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4561AFF128B3F5770026B1DF;
+			remoteInfo = "2-Time picker kullanimi";
+		};
+		4561B01328B3F5790026B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4561AFEA28B3F5770026B1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4561AFF128B3F5770026B1DF;
+			remoteInfo = "2-Time picker kullanimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4561AFF228B3F5770026B1DF /* 2-Time picker kullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-Time picker kullanimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561AFF528B3F5770026B1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4561AFF728B3F5770026B1DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4561AFF928B3F5770026B1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4561AFFC28B3F5770026B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4561AFFE28B3F5790026B1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4561B00128B3F5790026B1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4561B00328B3F5790026B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4561B00828B3F5790026B1DF /* 2-Time picker kullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2-Time picker kullanimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561B00C28B3F5790026B1DF /* __Time_picker_kullanimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Time_picker_kullanimiTests.swift; sourceTree = "<group>"; };
+		4561B01228B3F5790026B1DF /* 2-Time picker kullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2-Time picker kullanimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561B01628B3F5790026B1DF /* __Time_picker_kullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Time_picker_kullanimiUITests.swift; sourceTree = "<group>"; };
+		4561B01828B3F5790026B1DF /* __Time_picker_kullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Time_picker_kullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4561AFEF28B3F5770026B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B00528B3F5790026B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B00F28B3F5790026B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4561AFE928B3F5770026B1DF = {
+			isa = PBXGroup;
+			children = (
+				4561AFF428B3F5770026B1DF /* 2-Time picker kullanimi */,
+				4561B00B28B3F5790026B1DF /* 2-Time picker kullanimiTests */,
+				4561B01528B3F5790026B1DF /* 2-Time picker kullanimiUITests */,
+				4561AFF328B3F5770026B1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4561AFF328B3F5770026B1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4561AFF228B3F5770026B1DF /* 2-Time picker kullanimi.app */,
+				4561B00828B3F5790026B1DF /* 2-Time picker kullanimiTests.xctest */,
+				4561B01228B3F5790026B1DF /* 2-Time picker kullanimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4561AFF428B3F5770026B1DF /* 2-Time picker kullanimi */ = {
+			isa = PBXGroup;
+			children = (
+				4561AFF528B3F5770026B1DF /* AppDelegate.swift */,
+				4561AFF728B3F5770026B1DF /* SceneDelegate.swift */,
+				4561AFF928B3F5770026B1DF /* ViewController.swift */,
+				4561AFFB28B3F5770026B1DF /* Main.storyboard */,
+				4561AFFE28B3F5790026B1DF /* Assets.xcassets */,
+				4561B00028B3F5790026B1DF /* LaunchScreen.storyboard */,
+				4561B00328B3F5790026B1DF /* Info.plist */,
+			);
+			path = "2-Time picker kullanimi";
+			sourceTree = "<group>";
+		};
+		4561B00B28B3F5790026B1DF /* 2-Time picker kullanimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4561B00C28B3F5790026B1DF /* __Time_picker_kullanimiTests.swift */,
+			);
+			path = "2-Time picker kullanimiTests";
+			sourceTree = "<group>";
+		};
+		4561B01528B3F5790026B1DF /* 2-Time picker kullanimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4561B01628B3F5790026B1DF /* __Time_picker_kullanimiUITests.swift */,
+				4561B01828B3F5790026B1DF /* __Time_picker_kullanimiUITestsLaunchTests.swift */,
+			);
+			path = "2-Time picker kullanimiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4561AFF128B3F5770026B1DF /* 2-Time picker kullanimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561B01C28B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimi" */;
+			buildPhases = (
+				4561AFEE28B3F5770026B1DF /* Sources */,
+				4561AFEF28B3F5770026B1DF /* Frameworks */,
+				4561AFF028B3F5770026B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2-Time picker kullanimi";
+			productName = "2-Time picker kullanimi";
+			productReference = 4561AFF228B3F5770026B1DF /* 2-Time picker kullanimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4561B00728B3F5790026B1DF /* 2-Time picker kullanimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561B01F28B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimiTests" */;
+			buildPhases = (
+				4561B00428B3F5790026B1DF /* Sources */,
+				4561B00528B3F5790026B1DF /* Frameworks */,
+				4561B00628B3F5790026B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4561B00A28B3F5790026B1DF /* PBXTargetDependency */,
+			);
+			name = "2-Time picker kullanimiTests";
+			productName = "2-Time picker kullanimiTests";
+			productReference = 4561B00828B3F5790026B1DF /* 2-Time picker kullanimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4561B01128B3F5790026B1DF /* 2-Time picker kullanimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561B02228B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimiUITests" */;
+			buildPhases = (
+				4561B00E28B3F5790026B1DF /* Sources */,
+				4561B00F28B3F5790026B1DF /* Frameworks */,
+				4561B01028B3F5790026B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4561B01428B3F5790026B1DF /* PBXTargetDependency */,
+			);
+			name = "2-Time picker kullanimiUITests";
+			productName = "2-Time picker kullanimiUITests";
+			productReference = 4561B01228B3F5790026B1DF /* 2-Time picker kullanimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4561AFEA28B3F5770026B1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4561AFF128B3F5770026B1DF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4561B00728B3F5790026B1DF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4561AFF128B3F5770026B1DF;
+					};
+					4561B01128B3F5790026B1DF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4561AFF128B3F5770026B1DF;
+					};
+				};
+			};
+			buildConfigurationList = 4561AFED28B3F5770026B1DF /* Build configuration list for PBXProject "2-Time picker kullanimi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4561AFE928B3F5770026B1DF;
+			productRefGroup = 4561AFF328B3F5770026B1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4561AFF128B3F5770026B1DF /* 2-Time picker kullanimi */,
+				4561B00728B3F5790026B1DF /* 2-Time picker kullanimiTests */,
+				4561B01128B3F5790026B1DF /* 2-Time picker kullanimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4561AFF028B3F5770026B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561B00228B3F5790026B1DF /* LaunchScreen.storyboard in Resources */,
+				4561AFFF28B3F5790026B1DF /* Assets.xcassets in Resources */,
+				4561AFFD28B3F5770026B1DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B00628B3F5790026B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B01028B3F5790026B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4561AFEE28B3F5770026B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561AFFA28B3F5770026B1DF /* ViewController.swift in Sources */,
+				4561AFF628B3F5770026B1DF /* AppDelegate.swift in Sources */,
+				4561AFF828B3F5770026B1DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B00428B3F5790026B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561B00D28B3F5790026B1DF /* __Time_picker_kullanimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561B00E28B3F5790026B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561B01928B3F5790026B1DF /* __Time_picker_kullanimiUITestsLaunchTests.swift in Sources */,
+				4561B01728B3F5790026B1DF /* __Time_picker_kullanimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4561B00A28B3F5790026B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4561AFF128B3F5770026B1DF /* 2-Time picker kullanimi */;
+			targetProxy = 4561B00928B3F5790026B1DF /* PBXContainerItemProxy */;
+		};
+		4561B01428B3F5790026B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4561AFF128B3F5770026B1DF /* 2-Time picker kullanimi */;
+			targetProxy = 4561B01328B3F5790026B1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4561AFFB28B3F5770026B1DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4561AFFC28B3F5770026B1DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4561B00028B3F5790026B1DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4561B00128B3F5790026B1DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4561B01A28B3F5790026B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4561B01B28B3F5790026B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4561B01D28B3F5790026B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2-Time picker kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4561B01E28B3F5790026B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2-Time picker kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4561B02028B3F5790026B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-Time picker kullanimi.app/2-Time picker kullanimi";
+			};
+			name = Debug;
+		};
+		4561B02128B3F5790026B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-Time picker kullanimi.app/2-Time picker kullanimi";
+			};
+			name = Release;
+		};
+		4561B02328B3F5790026B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2-Time picker kullanimi";
+			};
+			name = Debug;
+		};
+		4561B02428B3F5790026B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y457UX6652;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Time-picker-kullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2-Time picker kullanimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4561AFED28B3F5770026B1DF /* Build configuration list for PBXProject "2-Time picker kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561B01A28B3F5790026B1DF /* Debug */,
+				4561B01B28B3F5790026B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561B01C28B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561B01D28B3F5790026B1DF /* Debug */,
+				4561B01E28B3F5790026B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561B01F28B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561B02028B3F5790026B1DF /* Debug */,
+				4561B02128B3F5790026B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561B02228B3F5790026B1DF /* Build configuration list for PBXNativeTarget "2-Time picker kullanimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561B02328B3F5790026B1DF /* Debug */,
+				4561B02428B3F5790026B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4561AFEA28B3F5770026B1DF /* Project object */;
+}

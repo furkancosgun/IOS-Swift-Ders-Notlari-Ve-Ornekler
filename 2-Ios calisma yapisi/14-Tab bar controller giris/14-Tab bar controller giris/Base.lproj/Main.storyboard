@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SfL-Vm-KOg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Screen A-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_4_Tab_bar_controller_giris" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hc-jy-sfm">
+                                <rect key="frame" x="172" y="388" width="70" height="120"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2hc-jy-sfm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="670-xE-w9j"/>
+                            <constraint firstItem="2hc-jy-sfm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Moq-yj-SMM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen A" image="homekit" catalog="system" id="Csc-7z-Vjt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="639" y="67"/>
+        </scene>
+        <!--Screen B-->
+        <scene sceneID="z6V-Mn-JiM">
+            <objects>
+                <viewController id="VV9-HC-h2e" customClass="ViewController2" customModule="_4_Tab_bar_controller_giris" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LW3-m3-7C5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUJ-5H-Jue">
+                                <rect key="frame" x="175" y="388" width="64" height="120"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hie-Qx-oLf">
+                                <rect key="frame" x="64" y="608" width="286" height="55"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add Badge Point">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="34"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addPoint:" destination="VV9-HC-h2e" eventType="touchUpInside" id="XZQ-iy-UeF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CA9-i2-En5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SUJ-5H-Jue" firstAttribute="centerX" secondItem="LW3-m3-7C5" secondAttribute="centerX" id="5Ks-zZ-STA"/>
+                            <constraint firstItem="Hie-Qx-oLf" firstAttribute="centerX" secondItem="LW3-m3-7C5" secondAttribute="centerX" id="DDA-HK-ySt"/>
+                            <constraint firstItem="CA9-i2-En5" firstAttribute="bottom" secondItem="Hie-Qx-oLf" secondAttribute="bottom" constant="150" id="c06-ms-bRu"/>
+                            <constraint firstItem="SUJ-5H-Jue" firstAttribute="centerY" secondItem="LW3-m3-7C5" secondAttribute="centerY" id="tWe-FX-BVN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen B" image="rosette" catalog="system" id="oeA-U2-KTP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aXZ-FL-49T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1378" y="67"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yV8-fj-c0I">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SfL-Vm-KOg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EU3-h3-CVc">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="E0t-RM-lub"/>
+                        <segue destination="VV9-HC-h2e" kind="relationship" relationship="viewControllers" id="5IT-ym-hRX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sag-pz-aCI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="rosette" catalog="system" width="106" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

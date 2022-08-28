@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__Switch_Segmented_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yl-1N-Kbl">
+                                <rect key="frame" x="186" y="225" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-7A-Gpc">
+                                <rect key="frame" x="186" y="513.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IyL-aS-Yr7">
+                                <rect key="frame" x="141.5" y="432.5" width="131" height="32"/>
+                                <color key="backgroundColor" red="0.98989246911012807" green="0.69342701067086554" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" systemColor="systemPurpleColor"/>
+                                <connections>
+                                    <action selector="segmented:" destination="BYZ-38-t0r" eventType="valueChanged" id="b3N-nv-Qb0"/>
+                                </connections>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HBi-kR-SJS">
+                                <rect key="frame" x="182.5" y="144" width="51" height="31"/>
+                                <color key="onTintColor" red="0.86887585690000002" green="0.22948632890000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="switchTrigger:" destination="BYZ-38-t0r" eventType="valueChanged" id="sfm-ZE-eA9"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QAU-7A-Gpc" firstAttribute="top" secondItem="IyL-aS-Yr7" secondAttribute="bottom" constant="50" id="1sp-2i-Ak0"/>
+                            <constraint firstItem="1Yl-1N-Kbl" firstAttribute="top" secondItem="HBi-kR-SJS" secondAttribute="bottom" constant="50" id="3PM-n8-Ogm"/>
+                            <constraint firstItem="HBi-kR-SJS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HIZ-Xw-9Pb"/>
+                            <constraint firstItem="1Yl-1N-Kbl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxe-FV-ZSb"/>
+                            <constraint firstItem="IyL-aS-Yr7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e3V-VL-459"/>
+                            <constraint firstItem="IyL-aS-Yr7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hKZ-Yz-rPL"/>
+                            <constraint firstItem="HBi-kR-SJS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="shb-fB-uBb"/>
+                            <constraint firstItem="QAU-7A-Gpc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ywl-U4-jhc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblSegmented" destination="QAU-7A-Gpc" id="ah6-ub-SyQ"/>
+                        <outlet property="lblSwitch" destination="1Yl-1N-Kbl" id="gUj-nb-IAC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="81"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

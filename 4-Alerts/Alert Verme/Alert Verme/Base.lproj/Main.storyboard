@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alert_Verme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEd-MJ-Gdh">
+                                <rect key="frame" x="161.5" y="244" width="91" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Basit Alert"/>
+                                <connections>
+                                    <action selector="btnBasitAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ifr-jY-hEE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcW-iV-9xT">
+                                <rect key="frame" x="132.5" y="432.5" width="149" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ozellestirilmis Alert"/>
+                                <connections>
+                                    <action selector="btnOzelAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b64-BN-DPo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4O-ow-CK3">
+                                <rect key="frame" x="154" y="631" width="106.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Action Sheet"/>
+                                <connections>
+                                    <action selector="btnActionSheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdS-wF-Wjp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8X-bg-1Og">
+                                <rect key="frame" x="186.5" y="473.5" width="41.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M8X-bg-1Og" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2hb-bp-aWB"/>
+                            <constraint firstItem="M8X-bg-1Og" firstAttribute="top" secondItem="BcW-iV-9xT" secondAttribute="bottom" constant="10" id="Itp-Yt-gMS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m4O-ow-CK3" secondAttribute="bottom" constant="200" id="RN9-NY-PuJ"/>
+                            <constraint firstItem="tEd-MJ-Gdh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="YGT-Cm-weI"/>
+                            <constraint firstItem="BcW-iV-9xT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a2u-XN-oGP"/>
+                            <constraint firstItem="BcW-iV-9xT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dVH-7l-c7b"/>
+                            <constraint firstItem="tEd-MJ-Gdh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fXL-ix-i22"/>
+                            <constraint firstItem="m4O-ow-CK3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lkd-Ix-9p3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblText" destination="M8X-bg-1Og" id="JfD-Qf-i0n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Quizz" representedClassName="Quizz" syncable="YES" codeGenerationType="class">
+        <attribute name="btnA" optional="YES" attributeType="String"/>
+        <attribute name="btnB" optional="YES" attributeType="String"/>
+        <attribute name="btnC" optional="YES" attributeType="String"/>
+        <attribute name="btnD" optional="YES" attributeType="String"/>
+        <attribute name="cevap" optional="YES" attributeType="String"/>
+        <attribute name="soru" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Quizz" positionX="-54" positionY="-9" width="128" height="119"/>
+    </elements>
+</model>

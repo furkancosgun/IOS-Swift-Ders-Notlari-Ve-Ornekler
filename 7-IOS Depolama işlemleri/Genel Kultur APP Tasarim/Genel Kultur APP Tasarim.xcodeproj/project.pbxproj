@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45AC0D3F28BFC6F200C92DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D3E28BFC6F200C92DBB /* AppDelegate.swift */; };
+		45AC0D4128BFC6F200C92DBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D4028BFC6F200C92DBB /* SceneDelegate.swift */; };
+		45AC0D4328BFC6F200C92DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D4228BFC6F200C92DBB /* ViewController.swift */; };
+		45AC0D4628BFC6F200C92DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AC0D4428BFC6F200C92DBB /* Main.storyboard */; };
+		45AC0D4828BFC6F500C92DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AC0D4728BFC6F500C92DBB /* Assets.xcassets */; };
+		45AC0D4B28BFC6F500C92DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AC0D4928BFC6F500C92DBB /* LaunchScreen.storyboard */; };
+		45AC0D5628BFC6F500C92DBB /* Genel_Kultur_APP_TasarimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D5528BFC6F500C92DBB /* Genel_Kultur_APP_TasarimTests.swift */; };
+		45AC0D6028BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D5F28BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITests.swift */; };
+		45AC0D6228BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D6128BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITestsLaunchTests.swift */; };
+		45AC0D7128BFCA4D00C92DBB /* ViewControllerQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D7028BFCA4D00C92DBB /* ViewControllerQuiz.swift */; };
+		45AC0D7328BFCCDD00C92DBB /* ViewControllerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC0D7228BFCCDD00C92DBB /* ViewControllerResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45AC0D5228BFC6F500C92DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AC0D3328BFC6F200C92DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AC0D3A28BFC6F200C92DBB;
+			remoteInfo = "Genel Kultur APP Tasarim";
+		};
+		45AC0D5C28BFC6F500C92DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AC0D3328BFC6F200C92DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AC0D3A28BFC6F200C92DBB;
+			remoteInfo = "Genel Kultur APP Tasarim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45AC0D3B28BFC6F200C92DBB /* Genel Kultur APP Tasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genel Kultur APP Tasarim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC0D3E28BFC6F200C92DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45AC0D4028BFC6F200C92DBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45AC0D4228BFC6F200C92DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45AC0D4528BFC6F200C92DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45AC0D4728BFC6F500C92DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AC0D4A28BFC6F500C92DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45AC0D4C28BFC6F500C92DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AC0D5128BFC6F500C92DBB /* Genel Kultur APP TasarimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Genel Kultur APP TasarimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC0D5528BFC6F500C92DBB /* Genel_Kultur_APP_TasarimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genel_Kultur_APP_TasarimTests.swift; sourceTree = "<group>"; };
+		45AC0D5B28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Genel Kultur APP TasarimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC0D5F28BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genel_Kultur_APP_TasarimUITests.swift; sourceTree = "<group>"; };
+		45AC0D6128BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genel_Kultur_APP_TasarimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45AC0D7028BFCA4D00C92DBB /* ViewControllerQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerQuiz.swift; sourceTree = "<group>"; };
+		45AC0D7228BFCCDD00C92DBB /* ViewControllerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AC0D3828BFC6F200C92DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D4E28BFC6F500C92DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D5828BFC6F500C92DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45AC0D3228BFC6F200C92DBB = {
+			isa = PBXGroup;
+			children = (
+				45AC0D3D28BFC6F200C92DBB /* Genel Kultur APP Tasarim */,
+				45AC0D5428BFC6F500C92DBB /* Genel Kultur APP TasarimTests */,
+				45AC0D5E28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests */,
+				45AC0D3C28BFC6F200C92DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45AC0D3C28BFC6F200C92DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AC0D3B28BFC6F200C92DBB /* Genel Kultur APP Tasarim.app */,
+				45AC0D5128BFC6F500C92DBB /* Genel Kultur APP TasarimTests.xctest */,
+				45AC0D5B28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AC0D3D28BFC6F200C92DBB /* Genel Kultur APP Tasarim */ = {
+			isa = PBXGroup;
+			children = (
+				45AC0D3E28BFC6F200C92DBB /* AppDelegate.swift */,
+				45AC0D4028BFC6F200C92DBB /* SceneDelegate.swift */,
+				45AC0D4228BFC6F200C92DBB /* ViewController.swift */,
+				45AC0D4428BFC6F200C92DBB /* Main.storyboard */,
+				45AC0D4728BFC6F500C92DBB /* Assets.xcassets */,
+				45AC0D4928BFC6F500C92DBB /* LaunchScreen.storyboard */,
+				45AC0D4C28BFC6F500C92DBB /* Info.plist */,
+				45AC0D7028BFCA4D00C92DBB /* ViewControllerQuiz.swift */,
+				45AC0D7228BFCCDD00C92DBB /* ViewControllerResult.swift */,
+			);
+			path = "Genel Kultur APP Tasarim";
+			sourceTree = "<group>";
+		};
+		45AC0D5428BFC6F500C92DBB /* Genel Kultur APP TasarimTests */ = {
+			isa = PBXGroup;
+			children = (
+				45AC0D5528BFC6F500C92DBB /* Genel_Kultur_APP_TasarimTests.swift */,
+			);
+			path = "Genel Kultur APP TasarimTests";
+			sourceTree = "<group>";
+		};
+		45AC0D5E28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45AC0D5F28BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITests.swift */,
+				45AC0D6128BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITestsLaunchTests.swift */,
+			);
+			path = "Genel Kultur APP TasarimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AC0D3A28BFC6F200C92DBB /* Genel Kultur APP Tasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC0D6528BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP Tasarim" */;
+			buildPhases = (
+				45AC0D3728BFC6F200C92DBB /* Sources */,
+				45AC0D3828BFC6F200C92DBB /* Frameworks */,
+				45AC0D3928BFC6F200C92DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genel Kultur APP Tasarim";
+			productName = "Genel Kultur APP Tasarim";
+			productReference = 45AC0D3B28BFC6F200C92DBB /* Genel Kultur APP Tasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45AC0D5028BFC6F500C92DBB /* Genel Kultur APP TasarimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC0D6828BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP TasarimTests" */;
+			buildPhases = (
+				45AC0D4D28BFC6F500C92DBB /* Sources */,
+				45AC0D4E28BFC6F500C92DBB /* Frameworks */,
+				45AC0D4F28BFC6F500C92DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AC0D5328BFC6F500C92DBB /* PBXTargetDependency */,
+			);
+			name = "Genel Kultur APP TasarimTests";
+			productName = "Genel Kultur APP TasarimTests";
+			productReference = 45AC0D5128BFC6F500C92DBB /* Genel Kultur APP TasarimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45AC0D5A28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC0D6B28BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP TasarimUITests" */;
+			buildPhases = (
+				45AC0D5728BFC6F500C92DBB /* Sources */,
+				45AC0D5828BFC6F500C92DBB /* Frameworks */,
+				45AC0D5928BFC6F500C92DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AC0D5D28BFC6F500C92DBB /* PBXTargetDependency */,
+			);
+			name = "Genel Kultur APP TasarimUITests";
+			productName = "Genel Kultur APP TasarimUITests";
+			productReference = 45AC0D5B28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AC0D3328BFC6F200C92DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					45AC0D3A28BFC6F200C92DBB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					45AC0D5028BFC6F500C92DBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45AC0D3A28BFC6F200C92DBB;
+					};
+					45AC0D5A28BFC6F500C92DBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45AC0D3A28BFC6F200C92DBB;
+					};
+				};
+			};
+			buildConfigurationList = 45AC0D3628BFC6F200C92DBB /* Build configuration list for PBXProject "Genel Kultur APP Tasarim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AC0D3228BFC6F200C92DBB;
+			productRefGroup = 45AC0D3C28BFC6F200C92DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AC0D3A28BFC6F200C92DBB /* Genel Kultur APP Tasarim */,
+				45AC0D5028BFC6F500C92DBB /* Genel Kultur APP TasarimTests */,
+				45AC0D5A28BFC6F500C92DBB /* Genel Kultur APP TasarimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AC0D3928BFC6F200C92DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC0D4B28BFC6F500C92DBB /* LaunchScreen.storyboard in Resources */,
+				45AC0D4828BFC6F500C92DBB /* Assets.xcassets in Resources */,
+				45AC0D4628BFC6F200C92DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D4F28BFC6F500C92DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D5928BFC6F500C92DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AC0D3728BFC6F200C92DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC0D4328BFC6F200C92DBB /* ViewController.swift in Sources */,
+				45AC0D3F28BFC6F200C92DBB /* AppDelegate.swift in Sources */,
+				45AC0D4128BFC6F200C92DBB /* SceneDelegate.swift in Sources */,
+				45AC0D7328BFCCDD00C92DBB /* ViewControllerResult.swift in Sources */,
+				45AC0D7128BFCA4D00C92DBB /* ViewControllerQuiz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D4D28BFC6F500C92DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC0D5628BFC6F500C92DBB /* Genel_Kultur_APP_TasarimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC0D5728BFC6F500C92DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC0D6028BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITests.swift in Sources */,
+				45AC0D6228BFC6F500C92DBB /* Genel_Kultur_APP_TasarimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45AC0D5328BFC6F500C92DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AC0D3A28BFC6F200C92DBB /* Genel Kultur APP Tasarim */;
+			targetProxy = 45AC0D5228BFC6F500C92DBB /* PBXContainerItemProxy */;
+		};
+		45AC0D5D28BFC6F500C92DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AC0D3A28BFC6F200C92DBB /* Genel Kultur APP Tasarim */;
+			targetProxy = 45AC0D5C28BFC6F500C92DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45AC0D4428BFC6F200C92DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AC0D4528BFC6F200C92DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45AC0D4928BFC6F500C92DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AC0D4A28BFC6F500C92DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45AC0D6328BFC6F500C92DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AC0D6428BFC6F500C92DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AC0D6628BFC6F500C92DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Genel Kultur APP Tasarim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-Tasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45AC0D6728BFC6F500C92DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Genel Kultur APP Tasarim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-Tasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45AC0D6928BFC6F500C92DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-TasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genel Kultur APP Tasarim.app/Genel Kultur APP Tasarim";
+			};
+			name = Debug;
+		};
+		45AC0D6A28BFC6F500C92DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-TasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genel Kultur APP Tasarim.app/Genel Kultur APP Tasarim";
+			};
+			name = Release;
+		};
+		45AC0D6C28BFC6F500C92DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-TasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Genel Kultur APP Tasarim";
+			};
+			name = Debug;
+		};
+		45AC0D6D28BFC6F500C92DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.Genel-Kultur-APP-TasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Genel Kultur APP Tasarim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AC0D3628BFC6F200C92DBB /* Build configuration list for PBXProject "Genel Kultur APP Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC0D6328BFC6F500C92DBB /* Debug */,
+				45AC0D6428BFC6F500C92DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC0D6528BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC0D6628BFC6F500C92DBB /* Debug */,
+				45AC0D6728BFC6F500C92DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC0D6828BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP TasarimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC0D6928BFC6F500C92DBB /* Debug */,
+				45AC0D6A28BFC6F500C92DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC0D6B28BFC6F500C92DBB /* Build configuration list for PBXNativeTarget "Genel Kultur APP TasarimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC0D6C28BFC6F500C92DBB /* Debug */,
+				45AC0D6D28BFC6F500C92DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AC0D3328BFC6F200C92DBB /* Project object */;
+}

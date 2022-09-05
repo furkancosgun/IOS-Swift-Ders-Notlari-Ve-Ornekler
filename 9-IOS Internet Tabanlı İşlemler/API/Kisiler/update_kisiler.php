@@ -10,15 +10,15 @@ if(isset($_POST["kisi_id"]) && isset($_POST["kisi_ad"]) && isset($_POST["kisi_te
     if(!$baglanti){//eger baglantı yoksa
         die("Hatalı baglantı: ".mysqli_connect_error());//session oldurulur ve alt satırlar okunmaz
     }
-    $sqlsorgu = "update kisiler set kisi_ad = $kisi_ad,kisi_tel = $kisi_tel where kisi_id = $kisi_id";
+    $sqlsorgu = "update kisiler set kisi_ad = '$kisi_ad' ,kisi_tel = '$kisi_tel' where kisi_id = $kisi_id";
    
     if(mysqli_query($baglanti,$sqlsorgu)){
         $response["success"] = 1;
-        $response["message"] = "succesfuly deleted";
+        $response["message"] = "succesfuly updated";
         echo json_encode($response);
     }else{
         $response["success"] = 0;
-        $response["message"] = "not deleted err..";
+        $response["message"] = "not updated err..";
         echo json_encode($response);
     }
 }else{

@@ -13,11 +13,11 @@ if(isset($_POST["kisi_ad"]) && isset($_POST["kisi_tel"])){//Eger post methoud il
    
     if(mysqli_query($baglanti,$sqlsorgu)){
         $response["success"] = 1;
-        $response["message"] = "succesfuly deleted";
+        $response["message"] = "succesfuly inserted";
         echo json_encode($response);
     }else{
         $response["success"] = 0;
-        $response["message"] = "not deleted err..";
+        $response["message"] = "not inserted err..";
         echo json_encode($response);
     }
 }else{

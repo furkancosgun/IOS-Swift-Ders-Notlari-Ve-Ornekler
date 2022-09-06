@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         //insert(Kisi_ad: "Furkan", Kisi_Tel: "04321321213")
         //delete2db(Kisi_id: 5)
         //update(Kisi_ad: "Furkans", Kisi_tel: "05432109876", Kisi_id: 1)
-        select()
+        //select()
         //likeSelect(Kisi_ad: "Fur")
+        selectCodable()
     }
     
     
@@ -176,6 +177,35 @@ class ViewController: UIViewController {
             
             
         }.resume()
+    }
+    
+    func selectCodable(){
+        //Normal request oluşturur
+        let request = URLRequest(url: URL(string: "http://localhost:8888/Kisiler/tum_kisiler.php")!)
+        
+        //Request çalıştrılır
+        URLSession.shared.dataTask(with: request){ (data,response,error) in
+            if error != nil || data == nil{//hata veya deger nil geldiyse
+                print("Error",error!)
+                return
+            }
+            
+            do{//gelmediyse do catch yapılır
+                //json degeri için jsonDecode() sınıfının decode fonksiyonu kullanılarak
+                //json objesini otomatık olarak verdigimiz sınıf tipine cevirir
+                let json = try JSONDecoder().decode(KisilerCevap.self, from: data!)
+                    
+                //Daha sonra cevrilen json objesinin (kisiler_cevap) sınıfı ile for yapısı kurulur
+                //ve ekrana sınıftan tureyen degerler yazdırılır
+                for kisi in json.kisiler!{
+                    print(kisi.kisi_id!,kisi.kisi_ad!,kisi.kisi_tel!)
+                }
+                
+            }catch{//Hata yakalanır
+                print(error.localizedDescription)
+            }
+           
+        }.resume()//Requsti çalıştırır ve stablize eder
     }
 }
 

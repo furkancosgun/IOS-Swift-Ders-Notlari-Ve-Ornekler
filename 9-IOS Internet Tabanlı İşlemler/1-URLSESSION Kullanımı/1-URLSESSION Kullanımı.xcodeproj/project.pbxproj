@@ -16,6 +16,8 @@
 		4564623828C663B900F81455 /* __URLSESSION_Kullan_m_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4564623728C663B900F81455 /* __URLSESSION_Kullan_m_Tests.swift */; };
 		4564624228C663B900F81455 /* __URLSESSION_Kullan_m_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4564624128C663B900F81455 /* __URLSESSION_Kullan_m_UITests.swift */; };
 		4564624428C663B900F81455 /* __URLSESSION_Kullan_m_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4564624328C663B900F81455 /* __URLSESSION_Kullan_m_UITestsLaunchTests.swift */; };
+		457FD4C128C7B61D00BD4DB8 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD4C028C7B61D00BD4DB8 /* Kisiler.swift */; };
+		457FD4C328C7B68400BD4DB8 /* KisilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FD4C228C7B68400BD4DB8 /* KisilerCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4564623D28C663B900F81455 /* 1-URLSESSION KullanımıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1-URLSESSION KullanımıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4564624128C663B900F81455 /* __URLSESSION_Kullan_m_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __URLSESSION_Kullan_m_UITests.swift; sourceTree = "<group>"; };
 		4564624328C663B900F81455 /* __URLSESSION_Kullan_m_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __URLSESSION_Kullan_m_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		457FD4C028C7B61D00BD4DB8 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		457FD4C228C7B68400BD4DB8 /* KisilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4564622928C663B900F81455 /* Assets.xcassets */,
 				4564622B28C663B900F81455 /* LaunchScreen.storyboard */,
 				4564622E28C663B900F81455 /* Info.plist */,
+				457FD4C028C7B61D00BD4DB8 /* Kisiler.swift */,
+				457FD4C228C7B68400BD4DB8 /* KisilerCevap.swift */,
 			);
 			path = "1-URLSESSION Kullanımı";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				4564622528C663B600F81455 /* ViewController.swift in Sources */,
 				4564622128C663B600F81455 /* AppDelegate.swift in Sources */,
 				4564622328C663B600F81455 /* SceneDelegate.swift in Sources */,
+				457FD4C328C7B68400BD4DB8 /* KisilerCevap.swift in Sources */,
+				457FD4C128C7B61D00BD4DB8 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

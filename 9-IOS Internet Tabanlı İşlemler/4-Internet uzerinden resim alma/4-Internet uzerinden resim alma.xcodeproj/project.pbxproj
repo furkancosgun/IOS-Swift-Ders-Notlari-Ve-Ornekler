@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A4822328CA62B40023E82F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4822228CA62B40023E82F /* AppDelegate.swift */; };
+		45A4822528CA62B40023E82F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4822428CA62B40023E82F /* SceneDelegate.swift */; };
+		45A4822728CA62B40023E82F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4822628CA62B40023E82F /* ViewController.swift */; };
+		45A4822A28CA62B40023E82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A4822828CA62B40023E82F /* Main.storyboard */; };
+		45A4822C28CA62B50023E82F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A4822B28CA62B50023E82F /* Assets.xcassets */; };
+		45A4822F28CA62B50023E82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A4822D28CA62B50023E82F /* LaunchScreen.storyboard */; };
+		45A4823A28CA62B50023E82F /* __Internet_uzerinden_resim_almaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4823928CA62B50023E82F /* __Internet_uzerinden_resim_almaTests.swift */; };
+		45A4824428CA62B50023E82F /* __Internet_uzerinden_resim_almaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4824328CA62B50023E82F /* __Internet_uzerinden_resim_almaUITests.swift */; };
+		45A4824628CA62B50023E82F /* __Internet_uzerinden_resim_almaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4824528CA62B50023E82F /* __Internet_uzerinden_resim_almaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A4823628CA62B50023E82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A4821728CA62B40023E82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A4821E28CA62B40023E82F;
+			remoteInfo = "4-Internet uzerinden resim alma";
+		};
+		45A4824028CA62B50023E82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A4821728CA62B40023E82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A4821E28CA62B40023E82F;
+			remoteInfo = "4-Internet uzerinden resim alma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45A4821F28CA62B40023E82F /* 4-Internet uzerinden resim alma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-Internet uzerinden resim alma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A4822228CA62B40023E82F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45A4822428CA62B40023E82F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45A4822628CA62B40023E82F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45A4822928CA62B40023E82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45A4822B28CA62B50023E82F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45A4822E28CA62B50023E82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45A4823028CA62B50023E82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A4823528CA62B50023E82F /* 4-Internet uzerinden resim almaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-Internet uzerinden resim almaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A4823928CA62B50023E82F /* __Internet_uzerinden_resim_almaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Internet_uzerinden_resim_almaTests.swift; sourceTree = "<group>"; };
+		45A4823F28CA62B50023E82F /* 4-Internet uzerinden resim almaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-Internet uzerinden resim almaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A4824328CA62B50023E82F /* __Internet_uzerinden_resim_almaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Internet_uzerinden_resim_almaUITests.swift; sourceTree = "<group>"; };
+		45A4824528CA62B50023E82F /* __Internet_uzerinden_resim_almaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Internet_uzerinden_resim_almaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A4821C28CA62B40023E82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823228CA62B50023E82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823C28CA62B50023E82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A4821628CA62B40023E82F = {
+			isa = PBXGroup;
+			children = (
+				45A4822128CA62B40023E82F /* 4-Internet uzerinden resim alma */,
+				45A4823828CA62B50023E82F /* 4-Internet uzerinden resim almaTests */,
+				45A4824228CA62B50023E82F /* 4-Internet uzerinden resim almaUITests */,
+				45A4822028CA62B40023E82F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A4822028CA62B40023E82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A4821F28CA62B40023E82F /* 4-Internet uzerinden resim alma.app */,
+				45A4823528CA62B50023E82F /* 4-Internet uzerinden resim almaTests.xctest */,
+				45A4823F28CA62B50023E82F /* 4-Internet uzerinden resim almaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A4822128CA62B40023E82F /* 4-Internet uzerinden resim alma */ = {
+			isa = PBXGroup;
+			children = (
+				45A4822228CA62B40023E82F /* AppDelegate.swift */,
+				45A4822428CA62B40023E82F /* SceneDelegate.swift */,
+				45A4822628CA62B40023E82F /* ViewController.swift */,
+				45A4822828CA62B40023E82F /* Main.storyboard */,
+				45A4822B28CA62B50023E82F /* Assets.xcassets */,
+				45A4822D28CA62B50023E82F /* LaunchScreen.storyboard */,
+				45A4823028CA62B50023E82F /* Info.plist */,
+			);
+			path = "4-Internet uzerinden resim alma";
+			sourceTree = "<group>";
+		};
+		45A4823828CA62B50023E82F /* 4-Internet uzerinden resim almaTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A4823928CA62B50023E82F /* __Internet_uzerinden_resim_almaTests.swift */,
+			);
+			path = "4-Internet uzerinden resim almaTests";
+			sourceTree = "<group>";
+		};
+		45A4824228CA62B50023E82F /* 4-Internet uzerinden resim almaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45A4824328CA62B50023E82F /* __Internet_uzerinden_resim_almaUITests.swift */,
+				45A4824528CA62B50023E82F /* __Internet_uzerinden_resim_almaUITestsLaunchTests.swift */,
+			);
+			path = "4-Internet uzerinden resim almaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A4821E28CA62B40023E82F /* 4-Internet uzerinden resim alma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A4824928CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim alma" */;
+			buildPhases = (
+				45A4821B28CA62B40023E82F /* Sources */,
+				45A4821C28CA62B40023E82F /* Frameworks */,
+				45A4821D28CA62B40023E82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4-Internet uzerinden resim alma";
+			productName = "4-Internet uzerinden resim alma";
+			productReference = 45A4821F28CA62B40023E82F /* 4-Internet uzerinden resim alma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A4823428CA62B50023E82F /* 4-Internet uzerinden resim almaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A4824C28CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim almaTests" */;
+			buildPhases = (
+				45A4823128CA62B50023E82F /* Sources */,
+				45A4823228CA62B50023E82F /* Frameworks */,
+				45A4823328CA62B50023E82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A4823728CA62B50023E82F /* PBXTargetDependency */,
+			);
+			name = "4-Internet uzerinden resim almaTests";
+			productName = "4-Internet uzerinden resim almaTests";
+			productReference = 45A4823528CA62B50023E82F /* 4-Internet uzerinden resim almaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A4823E28CA62B50023E82F /* 4-Internet uzerinden resim almaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A4824F28CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim almaUITests" */;
+			buildPhases = (
+				45A4823B28CA62B50023E82F /* Sources */,
+				45A4823C28CA62B50023E82F /* Frameworks */,
+				45A4823D28CA62B50023E82F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A4824128CA62B50023E82F /* PBXTargetDependency */,
+			);
+			name = "4-Internet uzerinden resim almaUITests";
+			productName = "4-Internet uzerinden resim almaUITests";
+			productReference = 45A4823F28CA62B50023E82F /* 4-Internet uzerinden resim almaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A4821728CA62B40023E82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					45A4821E28CA62B40023E82F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					45A4823428CA62B50023E82F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45A4821E28CA62B40023E82F;
+					};
+					45A4823E28CA62B50023E82F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45A4821E28CA62B40023E82F;
+					};
+				};
+			};
+			buildConfigurationList = 45A4821A28CA62B40023E82F /* Build configuration list for PBXProject "4-Internet uzerinden resim alma" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45A4821628CA62B40023E82F;
+			productRefGroup = 45A4822028CA62B40023E82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A4821E28CA62B40023E82F /* 4-Internet uzerinden resim alma */,
+				45A4823428CA62B50023E82F /* 4-Internet uzerinden resim almaTests */,
+				45A4823E28CA62B50023E82F /* 4-Internet uzerinden resim almaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A4821D28CA62B40023E82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A4822F28CA62B50023E82F /* LaunchScreen.storyboard in Resources */,
+				45A4822C28CA62B50023E82F /* Assets.xcassets in Resources */,
+				45A4822A28CA62B40023E82F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823328CA62B50023E82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823D28CA62B50023E82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A4821B28CA62B40023E82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A4822728CA62B40023E82F /* ViewController.swift in Sources */,
+				45A4822328CA62B40023E82F /* AppDelegate.swift in Sources */,
+				45A4822528CA62B40023E82F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823128CA62B50023E82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A4823A28CA62B50023E82F /* __Internet_uzerinden_resim_almaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A4823B28CA62B50023E82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A4824628CA62B50023E82F /* __Internet_uzerinden_resim_almaUITestsLaunchTests.swift in Sources */,
+				45A4824428CA62B50023E82F /* __Internet_uzerinden_resim_almaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A4823728CA62B50023E82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A4821E28CA62B40023E82F /* 4-Internet uzerinden resim alma */;
+			targetProxy = 45A4823628CA62B50023E82F /* PBXContainerItemProxy */;
+		};
+		45A4824128CA62B50023E82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A4821E28CA62B40023E82F /* 4-Internet uzerinden resim alma */;
+			targetProxy = 45A4824028CA62B50023E82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A4822828CA62B40023E82F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A4822928CA62B40023E82F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45A4822D28CA62B50023E82F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A4822E28CA62B50023E82F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A4824728CA62B50023E82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45A4824828CA62B50023E82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A4824A28CA62B50023E82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "4-Internet uzerinden resim alma/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-alma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A4824B28CA62B50023E82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "4-Internet uzerinden resim alma/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-alma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45A4824D28CA62B50023E82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-almaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-Internet uzerinden resim alma.app/4-Internet uzerinden resim alma";
+			};
+			name = Debug;
+		};
+		45A4824E28CA62B50023E82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-almaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-Internet uzerinden resim alma.app/4-Internet uzerinden resim alma";
+			};
+			name = Release;
+		};
+		45A4825028CA62B50023E82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-almaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4-Internet uzerinden resim alma";
+			};
+			name = Debug;
+		};
+		45A4825128CA62B50023E82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--Internet-uzerinden-resim-almaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4-Internet uzerinden resim alma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A4821A28CA62B40023E82F /* Build configuration list for PBXProject "4-Internet uzerinden resim alma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A4824728CA62B50023E82F /* Debug */,
+				45A4824828CA62B50023E82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A4824928CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim alma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A4824A28CA62B50023E82F /* Debug */,
+				45A4824B28CA62B50023E82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A4824C28CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim almaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A4824D28CA62B50023E82F /* Debug */,
+				45A4824E28CA62B50023E82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A4824F28CA62B50023E82F /* Build configuration list for PBXNativeTarget "4-Internet uzerinden resim almaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A4825028CA62B50023E82F /* Debug */,
+				45A4825128CA62B50023E82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A4821728CA62B40023E82F /* Project object */;
+}

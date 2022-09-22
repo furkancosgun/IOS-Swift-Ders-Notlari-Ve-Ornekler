@@ -82,29 +82,30 @@ Konular
 <br><a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/7-IOS%20Depolama%20i%C5%9Flemleri/4-File%20Islemleri">File Islemleri</a>
 <br><a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/7-IOS%20Depolama%20i%C5%9Flemleri/5-CoreData%20Kullanimi">CoreData Kullanımı</a>
 <br><a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/7-IOS%20Depolama%20i%C5%9Flemleri/6-KisilerUygulamasi%20CoreData">Kisiler Uygulaması CoreData ( Ornek Uygulama )<a/>
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/7-IOS%20Depolama%20i%C5%9Flemleri/7-Genel%20Kultur%20APP%20CoreData">Genel Kultur CoreData ( Ornek Uygulama )
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/7-IOS%20Depolama%20i%C5%9Flemleri/7-Genel%20Kultur%20APP%20CoreData">Genel Kultur CoreData ( Ornek Uygulama )</a>
 </details>
 
 <details close>
 <summary>Ileri IOS</summary>
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/1-Muzik%20Calar">Muzik Calar ( Ornek Uygulama )
-<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/1-Ses%20Oynatma">Ses Oynatma
-<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/3-Bildiirm%20olu%C5%9Fturma">Bildirim Olusturma
-<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/4-Tekrarl%C4%B1%20Bildirim%20ve%20Action">Tekrarli Bildirim Olusturma Ve Action
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/5-Timer%20kullanimi">Timer Kullanimi
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/1-Muzik%20Calar">Muzik Calar ( Ornek Uygulama )</a>
+<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/1-Ses%20Oynatma">Ses Oynatma</a>
+<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/3-Bildiirm%20olu%C5%9Fturma">Bildirim Olusturma</a>
+<br>	<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/4-Tekrarl%C4%B1%20Bildirim%20ve%20Action">Tekrarli Bildirim Olusturma Ve Action</a>
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/8-Ileri%20IOS/5-Timer%20kullanimi">Timer Kullanimi</a>
 </details>
 
 <details close>
 <summary>IOS Internet Tabanli Islemler</summary> 
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/1-URLSESSION%20Kullan%C4%B1m%C4%B1">URLSESSION
-<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/2-Alomefire%20Kullan%C4%B1m%C4%B1">Alomefire
-<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/3-Firebase%20kullan%C4%B1m%C4%B1">Firebase
-<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/4-Internet%20uzerinden%20resim%20alma">Internet Uzerinden Resim Gosterimi
-<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/FilmApp">FilmAPP ( Ornek Uygulama )
-<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/MusicPlayer">MusicPlayer ( Ornek Uygulama )
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/URLSESSION-Sozluk">SozlukAPP ( Ornek Uygulama )
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/1-URLSESSION%20Kullan%C4%B1m%C4%B1">URLSESSION</a>
+<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/2-Alomefire%20Kullan%C4%B1m%C4%B1">Alomefire</a>
+<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/3-Firebase%20kullan%C4%B1m%C4%B1">Firebase</a>
+<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/4-Internet%20uzerinden%20resim%20alma">Internet Uzerinden Resim Gosterimi</a>
+<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/FilmApp">FilmAPP ( Ornek Uygulama )</a>
+<br> <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/MusicPlayer">MusicPlayer ( Ornek Uygulama )</a>
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/URLSESSION-Sozluk">SozlukAPP ( Ornek Uygulama )</a>
 </details>
+
 <details close>
 <summary>PHP Backend APIS</summary>
-<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/API">API'S<a/>
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/API">API<a/>
 </details>

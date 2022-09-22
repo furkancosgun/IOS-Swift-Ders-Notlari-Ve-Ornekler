@@ -106,6 +106,11 @@ Konular
 </details>
 
 <details close>
+<summary>Animations</summary>
+<a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/11-Animations" >Animations</a>
+</details>
+
+<details close>
 <summary>PHP Backend APIS</summary>
 <a href="https://github.com/furkancosgun/IOS-Swift-Ders-Notlari-Ve-Ornekler/tree/main/9-IOS%20Internet%20Tabanl%C4%B1%20%C4%B0%C5%9Flemler/API">API<a/>
 </details>

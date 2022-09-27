@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BFDF6528E36A1A007EF798 /* __AligmentVeSpacingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFDF6428E36A1A007EF798 /* __AligmentVeSpacingApp.swift */; };
+		45BFDF6728E36A1A007EF798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFDF6628E36A1A007EF798 /* ContentView.swift */; };
+		45BFDF6928E36A1C007EF798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFDF6828E36A1C007EF798 /* Assets.xcassets */; };
+		45BFDF6C28E36A1C007EF798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFDF6B28E36A1C007EF798 /* Preview Assets.xcassets */; };
+		45BFDF7628E36A1C007EF798 /* __AligmentVeSpacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFDF7528E36A1C007EF798 /* __AligmentVeSpacingTests.swift */; };
+		45BFDF8028E36A1C007EF798 /* __AligmentVeSpacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFDF7F28E36A1C007EF798 /* __AligmentVeSpacingUITests.swift */; };
+		45BFDF8228E36A1C007EF798 /* __AligmentVeSpacingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFDF8128E36A1C007EF798 /* __AligmentVeSpacingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BFDF7228E36A1C007EF798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BFDF5928E36A1A007EF798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BFDF6028E36A1A007EF798;
+			remoteInfo = "3-AligmentVeSpacing";
+		};
+		45BFDF7C28E36A1C007EF798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BFDF5928E36A1A007EF798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BFDF6028E36A1A007EF798;
+			remoteInfo = "3-AligmentVeSpacing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45BFDF6128E36A1A007EF798 /* 3-AligmentVeSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3-AligmentVeSpacing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFDF6428E36A1A007EF798 /* __AligmentVeSpacingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __AligmentVeSpacingApp.swift; sourceTree = "<group>"; };
+		45BFDF6628E36A1A007EF798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45BFDF6828E36A1C007EF798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BFDF6B28E36A1C007EF798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45BFDF7128E36A1C007EF798 /* 3-AligmentVeSpacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3-AligmentVeSpacingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFDF7528E36A1C007EF798 /* __AligmentVeSpacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __AligmentVeSpacingTests.swift; sourceTree = "<group>"; };
+		45BFDF7B28E36A1C007EF798 /* 3-AligmentVeSpacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3-AligmentVeSpacingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFDF7F28E36A1C007EF798 /* __AligmentVeSpacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __AligmentVeSpacingUITests.swift; sourceTree = "<group>"; };
+		45BFDF8128E36A1C007EF798 /* __AligmentVeSpacingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __AligmentVeSpacingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BFDF5E28E36A1A007EF798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF6E28E36A1C007EF798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF7828E36A1C007EF798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BFDF5828E36A1A007EF798 = {
+			isa = PBXGroup;
+			children = (
+				45BFDF6328E36A1A007EF798 /* 3-AligmentVeSpacing */,
+				45BFDF7428E36A1C007EF798 /* 3-AligmentVeSpacingTests */,
+				45BFDF7E28E36A1C007EF798 /* 3-AligmentVeSpacingUITests */,
+				45BFDF6228E36A1A007EF798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BFDF6228E36A1A007EF798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BFDF6128E36A1A007EF798 /* 3-AligmentVeSpacing.app */,
+				45BFDF7128E36A1C007EF798 /* 3-AligmentVeSpacingTests.xctest */,
+				45BFDF7B28E36A1C007EF798 /* 3-AligmentVeSpacingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BFDF6328E36A1A007EF798 /* 3-AligmentVeSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				45BFDF6428E36A1A007EF798 /* __AligmentVeSpacingApp.swift */,
+				45BFDF6628E36A1A007EF798 /* ContentView.swift */,
+				45BFDF6828E36A1C007EF798 /* Assets.xcassets */,
+				45BFDF6A28E36A1C007EF798 /* Preview Content */,
+			);
+			path = "3-AligmentVeSpacing";
+			sourceTree = "<group>";
+		};
+		45BFDF6A28E36A1C007EF798 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45BFDF6B28E36A1C007EF798 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45BFDF7428E36A1C007EF798 /* 3-AligmentVeSpacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BFDF7528E36A1C007EF798 /* __AligmentVeSpacingTests.swift */,
+			);
+			path = "3-AligmentVeSpacingTests";
+			sourceTree = "<group>";
+		};
+		45BFDF7E28E36A1C007EF798 /* 3-AligmentVeSpacingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BFDF7F28E36A1C007EF798 /* __AligmentVeSpacingUITests.swift */,
+				45BFDF8128E36A1C007EF798 /* __AligmentVeSpacingUITestsLaunchTests.swift */,
+			);
+			path = "3-AligmentVeSpacingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BFDF6028E36A1A007EF798 /* 3-AligmentVeSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFDF8528E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacing" */;
+			buildPhases = (
+				45BFDF5D28E36A1A007EF798 /* Sources */,
+				45BFDF5E28E36A1A007EF798 /* Frameworks */,
+				45BFDF5F28E36A1A007EF798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3-AligmentVeSpacing";
+			productName = "3-AligmentVeSpacing";
+			productReference = 45BFDF6128E36A1A007EF798 /* 3-AligmentVeSpacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BFDF7028E36A1C007EF798 /* 3-AligmentVeSpacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFDF8828E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacingTests" */;
+			buildPhases = (
+				45BFDF6D28E36A1C007EF798 /* Sources */,
+				45BFDF6E28E36A1C007EF798 /* Frameworks */,
+				45BFDF6F28E36A1C007EF798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BFDF7328E36A1C007EF798 /* PBXTargetDependency */,
+			);
+			name = "3-AligmentVeSpacingTests";
+			productName = "3-AligmentVeSpacingTests";
+			productReference = 45BFDF7128E36A1C007EF798 /* 3-AligmentVeSpacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BFDF7A28E36A1C007EF798 /* 3-AligmentVeSpacingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFDF8B28E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacingUITests" */;
+			buildPhases = (
+				45BFDF7728E36A1C007EF798 /* Sources */,
+				45BFDF7828E36A1C007EF798 /* Frameworks */,
+				45BFDF7928E36A1C007EF798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BFDF7D28E36A1C007EF798 /* PBXTargetDependency */,
+			);
+			name = "3-AligmentVeSpacingUITests";
+			productName = "3-AligmentVeSpacingUITests";
+			productReference = 45BFDF7B28E36A1C007EF798 /* 3-AligmentVeSpacingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BFDF5928E36A1A007EF798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					45BFDF6028E36A1A007EF798 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					45BFDF7028E36A1C007EF798 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 45BFDF6028E36A1A007EF798;
+					};
+					45BFDF7A28E36A1C007EF798 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 45BFDF6028E36A1A007EF798;
+					};
+				};
+			};
+			buildConfigurationList = 45BFDF5C28E36A1A007EF798 /* Build configuration list for PBXProject "3-AligmentVeSpacing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BFDF5828E36A1A007EF798;
+			productRefGroup = 45BFDF6228E36A1A007EF798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BFDF6028E36A1A007EF798 /* 3-AligmentVeSpacing */,
+				45BFDF7028E36A1C007EF798 /* 3-AligmentVeSpacingTests */,
+				45BFDF7A28E36A1C007EF798 /* 3-AligmentVeSpacingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BFDF5F28E36A1A007EF798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFDF6C28E36A1C007EF798 /* Preview Assets.xcassets in Resources */,
+				45BFDF6928E36A1C007EF798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF6F28E36A1C007EF798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF7928E36A1C007EF798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BFDF5D28E36A1A007EF798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFDF6728E36A1A007EF798 /* ContentView.swift in Sources */,
+				45BFDF6528E36A1A007EF798 /* __AligmentVeSpacingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF6D28E36A1C007EF798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFDF7628E36A1C007EF798 /* __AligmentVeSpacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFDF7728E36A1C007EF798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFDF8228E36A1C007EF798 /* __AligmentVeSpacingUITestsLaunchTests.swift in Sources */,
+				45BFDF8028E36A1C007EF798 /* __AligmentVeSpacingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BFDF7328E36A1C007EF798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BFDF6028E36A1A007EF798 /* 3-AligmentVeSpacing */;
+			targetProxy = 45BFDF7228E36A1C007EF798 /* PBXContainerItemProxy */;
+		};
+		45BFDF7D28E36A1C007EF798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BFDF6028E36A1A007EF798 /* 3-AligmentVeSpacing */;
+			targetProxy = 45BFDF7C28E36A1C007EF798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45BFDF8328E36A1C007EF798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45BFDF8428E36A1C007EF798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BFDF8628E36A1C007EF798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3-AligmentVeSpacing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BFDF8728E36A1C007EF798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3-AligmentVeSpacing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45BFDF8928E36A1C007EF798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3-AligmentVeSpacing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3-AligmentVeSpacing";
+			};
+			name = Debug;
+		};
+		45BFDF8A28E36A1C007EF798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3-AligmentVeSpacing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3-AligmentVeSpacing";
+			};
+			name = Release;
+		};
+		45BFDF8C28E36A1C007EF798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3-AligmentVeSpacing";
+			};
+			name = Debug;
+		};
+		45BFDF8D28E36A1C007EF798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--AligmentVeSpacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3-AligmentVeSpacing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BFDF5C28E36A1A007EF798 /* Build configuration list for PBXProject "3-AligmentVeSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFDF8328E36A1C007EF798 /* Debug */,
+				45BFDF8428E36A1C007EF798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFDF8528E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFDF8628E36A1C007EF798 /* Debug */,
+				45BFDF8728E36A1C007EF798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFDF8828E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFDF8928E36A1C007EF798 /* Debug */,
+				45BFDF8A28E36A1C007EF798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFDF8B28E36A1C007EF798 /* Build configuration list for PBXNativeTarget "3-AligmentVeSpacingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFDF8C28E36A1C007EF798 /* Debug */,
+				45BFDF8D28E36A1C007EF798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BFDF5928E36A1A007EF798 /* Project object */;
+}

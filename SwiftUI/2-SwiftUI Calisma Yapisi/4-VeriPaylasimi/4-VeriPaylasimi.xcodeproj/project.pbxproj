@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457A4BB028E4B21C005865A5 /* __VeriPaylasimiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4BAF28E4B21C005865A5 /* __VeriPaylasimiApp.swift */; };
+		457A4BB228E4B21C005865A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4BB128E4B21C005865A5 /* ContentView.swift */; };
+		457A4BB428E4B21D005865A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457A4BB328E4B21D005865A5 /* Assets.xcassets */; };
+		457A4BB728E4B21D005865A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457A4BB628E4B21D005865A5 /* Preview Assets.xcassets */; };
+		457A4BC128E4B21D005865A5 /* __VeriPaylasimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4BC028E4B21D005865A5 /* __VeriPaylasimiTests.swift */; };
+		457A4BCB28E4B21D005865A5 /* __VeriPaylasimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4BCA28E4B21D005865A5 /* __VeriPaylasimiUITests.swift */; };
+		457A4BCD28E4B21D005865A5 /* __VeriPaylasimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4BCC28E4B21D005865A5 /* __VeriPaylasimiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457A4BBD28E4B21D005865A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A4BA428E4B21C005865A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A4BAB28E4B21C005865A5;
+			remoteInfo = "4-VeriPaylasimi";
+		};
+		457A4BC728E4B21D005865A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A4BA428E4B21C005865A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A4BAB28E4B21C005865A5;
+			remoteInfo = "4-VeriPaylasimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457A4BAC28E4B21C005865A5 /* 4-VeriPaylasimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-VeriPaylasimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4BAF28E4B21C005865A5 /* __VeriPaylasimiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __VeriPaylasimiApp.swift; sourceTree = "<group>"; };
+		457A4BB128E4B21C005865A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		457A4BB328E4B21D005865A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457A4BB628E4B21D005865A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		457A4BBC28E4B21D005865A5 /* 4-VeriPaylasimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-VeriPaylasimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4BC028E4B21D005865A5 /* __VeriPaylasimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __VeriPaylasimiTests.swift; sourceTree = "<group>"; };
+		457A4BC628E4B21D005865A5 /* 4-VeriPaylasimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4-VeriPaylasimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4BCA28E4B21D005865A5 /* __VeriPaylasimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __VeriPaylasimiUITests.swift; sourceTree = "<group>"; };
+		457A4BCC28E4B21D005865A5 /* __VeriPaylasimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __VeriPaylasimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457A4BA928E4B21C005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BB928E4B21D005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BC328E4B21D005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457A4BA328E4B21C005865A5 = {
+			isa = PBXGroup;
+			children = (
+				457A4BAE28E4B21C005865A5 /* 4-VeriPaylasimi */,
+				457A4BBF28E4B21D005865A5 /* 4-VeriPaylasimiTests */,
+				457A4BC928E4B21D005865A5 /* 4-VeriPaylasimiUITests */,
+				457A4BAD28E4B21C005865A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457A4BAD28E4B21C005865A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457A4BAC28E4B21C005865A5 /* 4-VeriPaylasimi.app */,
+				457A4BBC28E4B21D005865A5 /* 4-VeriPaylasimiTests.xctest */,
+				457A4BC628E4B21D005865A5 /* 4-VeriPaylasimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457A4BAE28E4B21C005865A5 /* 4-VeriPaylasimi */ = {
+			isa = PBXGroup;
+			children = (
+				457A4BAF28E4B21C005865A5 /* __VeriPaylasimiApp.swift */,
+				457A4BB128E4B21C005865A5 /* ContentView.swift */,
+				457A4BB328E4B21D005865A5 /* Assets.xcassets */,
+				457A4BB528E4B21D005865A5 /* Preview Content */,
+			);
+			path = "4-VeriPaylasimi";
+			sourceTree = "<group>";
+		};
+		457A4BB528E4B21D005865A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				457A4BB628E4B21D005865A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		457A4BBF28E4B21D005865A5 /* 4-VeriPaylasimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				457A4BC028E4B21D005865A5 /* __VeriPaylasimiTests.swift */,
+			);
+			path = "4-VeriPaylasimiTests";
+			sourceTree = "<group>";
+		};
+		457A4BC928E4B21D005865A5 /* 4-VeriPaylasimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457A4BCA28E4B21D005865A5 /* __VeriPaylasimiUITests.swift */,
+				457A4BCC28E4B21D005865A5 /* __VeriPaylasimiUITestsLaunchTests.swift */,
+			);
+			path = "4-VeriPaylasimiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457A4BAB28E4B21C005865A5 /* 4-VeriPaylasimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4BD028E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimi" */;
+			buildPhases = (
+				457A4BA828E4B21C005865A5 /* Sources */,
+				457A4BA928E4B21C005865A5 /* Frameworks */,
+				457A4BAA28E4B21C005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4-VeriPaylasimi";
+			productName = "4-VeriPaylasimi";
+			productReference = 457A4BAC28E4B21C005865A5 /* 4-VeriPaylasimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457A4BBB28E4B21D005865A5 /* 4-VeriPaylasimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4BD328E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimiTests" */;
+			buildPhases = (
+				457A4BB828E4B21D005865A5 /* Sources */,
+				457A4BB928E4B21D005865A5 /* Frameworks */,
+				457A4BBA28E4B21D005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A4BBE28E4B21D005865A5 /* PBXTargetDependency */,
+			);
+			name = "4-VeriPaylasimiTests";
+			productName = "4-VeriPaylasimiTests";
+			productReference = 457A4BBC28E4B21D005865A5 /* 4-VeriPaylasimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457A4BC528E4B21D005865A5 /* 4-VeriPaylasimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4BD628E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimiUITests" */;
+			buildPhases = (
+				457A4BC228E4B21D005865A5 /* Sources */,
+				457A4BC328E4B21D005865A5 /* Frameworks */,
+				457A4BC428E4B21D005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A4BC828E4B21D005865A5 /* PBXTargetDependency */,
+			);
+			name = "4-VeriPaylasimiUITests";
+			productName = "4-VeriPaylasimiUITests";
+			productReference = 457A4BC628E4B21D005865A5 /* 4-VeriPaylasimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457A4BA428E4B21C005865A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					457A4BAB28E4B21C005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					457A4BBB28E4B21D005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 457A4BAB28E4B21C005865A5;
+					};
+					457A4BC528E4B21D005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 457A4BAB28E4B21C005865A5;
+					};
+				};
+			};
+			buildConfigurationList = 457A4BA728E4B21C005865A5 /* Build configuration list for PBXProject "4-VeriPaylasimi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457A4BA328E4B21C005865A5;
+			productRefGroup = 457A4BAD28E4B21C005865A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457A4BAB28E4B21C005865A5 /* 4-VeriPaylasimi */,
+				457A4BBB28E4B21D005865A5 /* 4-VeriPaylasimiTests */,
+				457A4BC528E4B21D005865A5 /* 4-VeriPaylasimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457A4BAA28E4B21C005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4BB728E4B21D005865A5 /* Preview Assets.xcassets in Resources */,
+				457A4BB428E4B21D005865A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BBA28E4B21D005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BC428E4B21D005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457A4BA828E4B21C005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4BB228E4B21C005865A5 /* ContentView.swift in Sources */,
+				457A4BB028E4B21C005865A5 /* __VeriPaylasimiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BB828E4B21D005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4BC128E4B21D005865A5 /* __VeriPaylasimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4BC228E4B21D005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4BCD28E4B21D005865A5 /* __VeriPaylasimiUITestsLaunchTests.swift in Sources */,
+				457A4BCB28E4B21D005865A5 /* __VeriPaylasimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457A4BBE28E4B21D005865A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A4BAB28E4B21C005865A5 /* 4-VeriPaylasimi */;
+			targetProxy = 457A4BBD28E4B21D005865A5 /* PBXContainerItemProxy */;
+		};
+		457A4BC828E4B21D005865A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A4BAB28E4B21C005865A5 /* 4-VeriPaylasimi */;
+			targetProxy = 457A4BC728E4B21D005865A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		457A4BCE28E4B21D005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		457A4BCF28E4B21D005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457A4BD128E4B21D005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"4-VeriPaylasimi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457A4BD228E4B21D005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"4-VeriPaylasimi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		457A4BD428E4B21D005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-VeriPaylasimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4-VeriPaylasimi";
+			};
+			name = Debug;
+		};
+		457A4BD528E4B21D005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4-VeriPaylasimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4-VeriPaylasimi";
+			};
+			name = Release;
+		};
+		457A4BD728E4B21D005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4-VeriPaylasimi";
+			};
+			name = Debug;
+		};
+		457A4BD828E4B21D005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--VeriPaylasimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "4-VeriPaylasimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457A4BA728E4B21C005865A5 /* Build configuration list for PBXProject "4-VeriPaylasimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4BCE28E4B21D005865A5 /* Debug */,
+				457A4BCF28E4B21D005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4BD028E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4BD128E4B21D005865A5 /* Debug */,
+				457A4BD228E4B21D005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4BD328E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4BD428E4B21D005865A5 /* Debug */,
+				457A4BD528E4B21D005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4BD628E4B21D005865A5 /* Build configuration list for PBXNativeTarget "4-VeriPaylasimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4BD728E4B21D005865A5 /* Debug */,
+				457A4BD828E4B21D005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457A4BA428E4B21C005865A5 /* Project object */;
+}

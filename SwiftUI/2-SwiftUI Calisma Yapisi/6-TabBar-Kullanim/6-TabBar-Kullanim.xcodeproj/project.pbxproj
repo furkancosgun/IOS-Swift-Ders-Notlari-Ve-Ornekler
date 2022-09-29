@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457A4C1C28E4BFB1005865A5 /* __TabBar_KullanimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4C1B28E4BFB1005865A5 /* __TabBar_KullanimApp.swift */; };
+		457A4C1E28E4BFB1005865A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4C1D28E4BFB1005865A5 /* ContentView.swift */; };
+		457A4C2028E4BFB3005865A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457A4C1F28E4BFB3005865A5 /* Assets.xcassets */; };
+		457A4C2328E4BFB3005865A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457A4C2228E4BFB3005865A5 /* Preview Assets.xcassets */; };
+		457A4C2D28E4BFB3005865A5 /* __TabBar_KullanimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4C2C28E4BFB3005865A5 /* __TabBar_KullanimTests.swift */; };
+		457A4C3728E4BFB3005865A5 /* __TabBar_KullanimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4C3628E4BFB3005865A5 /* __TabBar_KullanimUITests.swift */; };
+		457A4C3928E4BFB3005865A5 /* __TabBar_KullanimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A4C3828E4BFB3005865A5 /* __TabBar_KullanimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457A4C2928E4BFB3005865A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A4C1028E4BFB1005865A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A4C1728E4BFB1005865A5;
+			remoteInfo = "6-TabBar-Kullanim";
+		};
+		457A4C3328E4BFB3005865A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457A4C1028E4BFB1005865A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457A4C1728E4BFB1005865A5;
+			remoteInfo = "6-TabBar-Kullanim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457A4C1828E4BFB1005865A5 /* 6-TabBar-Kullanim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6-TabBar-Kullanim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4C1B28E4BFB1005865A5 /* __TabBar_KullanimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TabBar_KullanimApp.swift; sourceTree = "<group>"; };
+		457A4C1D28E4BFB1005865A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		457A4C1F28E4BFB3005865A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457A4C2228E4BFB3005865A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		457A4C2828E4BFB3005865A5 /* 6-TabBar-KullanimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6-TabBar-KullanimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4C2C28E4BFB3005865A5 /* __TabBar_KullanimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TabBar_KullanimTests.swift; sourceTree = "<group>"; };
+		457A4C3228E4BFB3005865A5 /* 6-TabBar-KullanimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6-TabBar-KullanimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457A4C3628E4BFB3005865A5 /* __TabBar_KullanimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TabBar_KullanimUITests.swift; sourceTree = "<group>"; };
+		457A4C3828E4BFB3005865A5 /* __TabBar_KullanimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __TabBar_KullanimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457A4C1528E4BFB1005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C2528E4BFB3005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C2F28E4BFB3005865A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457A4C0F28E4BFB1005865A5 = {
+			isa = PBXGroup;
+			children = (
+				457A4C1A28E4BFB1005865A5 /* 6-TabBar-Kullanim */,
+				457A4C2B28E4BFB3005865A5 /* 6-TabBar-KullanimTests */,
+				457A4C3528E4BFB3005865A5 /* 6-TabBar-KullanimUITests */,
+				457A4C1928E4BFB1005865A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457A4C1928E4BFB1005865A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457A4C1828E4BFB1005865A5 /* 6-TabBar-Kullanim.app */,
+				457A4C2828E4BFB3005865A5 /* 6-TabBar-KullanimTests.xctest */,
+				457A4C3228E4BFB3005865A5 /* 6-TabBar-KullanimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457A4C1A28E4BFB1005865A5 /* 6-TabBar-Kullanim */ = {
+			isa = PBXGroup;
+			children = (
+				457A4C1B28E4BFB1005865A5 /* __TabBar_KullanimApp.swift */,
+				457A4C1D28E4BFB1005865A5 /* ContentView.swift */,
+				457A4C1F28E4BFB3005865A5 /* Assets.xcassets */,
+				457A4C2128E4BFB3005865A5 /* Preview Content */,
+			);
+			path = "6-TabBar-Kullanim";
+			sourceTree = "<group>";
+		};
+		457A4C2128E4BFB3005865A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				457A4C2228E4BFB3005865A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		457A4C2B28E4BFB3005865A5 /* 6-TabBar-KullanimTests */ = {
+			isa = PBXGroup;
+			children = (
+				457A4C2C28E4BFB3005865A5 /* __TabBar_KullanimTests.swift */,
+			);
+			path = "6-TabBar-KullanimTests";
+			sourceTree = "<group>";
+		};
+		457A4C3528E4BFB3005865A5 /* 6-TabBar-KullanimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457A4C3628E4BFB3005865A5 /* __TabBar_KullanimUITests.swift */,
+				457A4C3828E4BFB3005865A5 /* __TabBar_KullanimUITestsLaunchTests.swift */,
+			);
+			path = "6-TabBar-KullanimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457A4C1728E4BFB1005865A5 /* 6-TabBar-Kullanim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4C3C28E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-Kullanim" */;
+			buildPhases = (
+				457A4C1428E4BFB1005865A5 /* Sources */,
+				457A4C1528E4BFB1005865A5 /* Frameworks */,
+				457A4C1628E4BFB1005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6-TabBar-Kullanim";
+			productName = "6-TabBar-Kullanim";
+			productReference = 457A4C1828E4BFB1005865A5 /* 6-TabBar-Kullanim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457A4C2728E4BFB3005865A5 /* 6-TabBar-KullanimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4C3F28E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-KullanimTests" */;
+			buildPhases = (
+				457A4C2428E4BFB3005865A5 /* Sources */,
+				457A4C2528E4BFB3005865A5 /* Frameworks */,
+				457A4C2628E4BFB3005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A4C2A28E4BFB3005865A5 /* PBXTargetDependency */,
+			);
+			name = "6-TabBar-KullanimTests";
+			productName = "6-TabBar-KullanimTests";
+			productReference = 457A4C2828E4BFB3005865A5 /* 6-TabBar-KullanimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457A4C3128E4BFB3005865A5 /* 6-TabBar-KullanimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457A4C4228E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-KullanimUITests" */;
+			buildPhases = (
+				457A4C2E28E4BFB3005865A5 /* Sources */,
+				457A4C2F28E4BFB3005865A5 /* Frameworks */,
+				457A4C3028E4BFB3005865A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457A4C3428E4BFB3005865A5 /* PBXTargetDependency */,
+			);
+			name = "6-TabBar-KullanimUITests";
+			productName = "6-TabBar-KullanimUITests";
+			productReference = 457A4C3228E4BFB3005865A5 /* 6-TabBar-KullanimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457A4C1028E4BFB1005865A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					457A4C1728E4BFB1005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					457A4C2728E4BFB3005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 457A4C1728E4BFB1005865A5;
+					};
+					457A4C3128E4BFB3005865A5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 457A4C1728E4BFB1005865A5;
+					};
+				};
+			};
+			buildConfigurationList = 457A4C1328E4BFB1005865A5 /* Build configuration list for PBXProject "6-TabBar-Kullanim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457A4C0F28E4BFB1005865A5;
+			productRefGroup = 457A4C1928E4BFB1005865A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457A4C1728E4BFB1005865A5 /* 6-TabBar-Kullanim */,
+				457A4C2728E4BFB3005865A5 /* 6-TabBar-KullanimTests */,
+				457A4C3128E4BFB3005865A5 /* 6-TabBar-KullanimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457A4C1628E4BFB1005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4C2328E4BFB3005865A5 /* Preview Assets.xcassets in Resources */,
+				457A4C2028E4BFB3005865A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C2628E4BFB3005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C3028E4BFB3005865A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457A4C1428E4BFB1005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4C1E28E4BFB1005865A5 /* ContentView.swift in Sources */,
+				457A4C1C28E4BFB1005865A5 /* __TabBar_KullanimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C2428E4BFB3005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4C2D28E4BFB3005865A5 /* __TabBar_KullanimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457A4C2E28E4BFB3005865A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457A4C3728E4BFB3005865A5 /* __TabBar_KullanimUITests.swift in Sources */,
+				457A4C3928E4BFB3005865A5 /* __TabBar_KullanimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457A4C2A28E4BFB3005865A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A4C1728E4BFB1005865A5 /* 6-TabBar-Kullanim */;
+			targetProxy = 457A4C2928E4BFB3005865A5 /* PBXContainerItemProxy */;
+		};
+		457A4C3428E4BFB3005865A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457A4C1728E4BFB1005865A5 /* 6-TabBar-Kullanim */;
+			targetProxy = 457A4C3328E4BFB3005865A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		457A4C3A28E4BFB3005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		457A4C3B28E4BFB3005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457A4C3D28E4BFB3005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"6-TabBar-Kullanim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-Kullanim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457A4C3E28E4BFB3005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"6-TabBar-Kullanim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-Kullanim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		457A4C4028E4BFB3005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-KullanimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6-TabBar-Kullanim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/6-TabBar-Kullanim";
+			};
+			name = Debug;
+		};
+		457A4C4128E4BFB3005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-KullanimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6-TabBar-Kullanim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/6-TabBar-Kullanim";
+			};
+			name = Release;
+		};
+		457A4C4328E4BFB3005865A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-KullanimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "6-TabBar-Kullanim";
+			};
+			name = Debug;
+		};
+		457A4C4428E4BFB3005865A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "furkanc.--TabBar-KullanimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "6-TabBar-Kullanim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457A4C1328E4BFB1005865A5 /* Build configuration list for PBXProject "6-TabBar-Kullanim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4C3A28E4BFB3005865A5 /* Debug */,
+				457A4C3B28E4BFB3005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4C3C28E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-Kullanim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4C3D28E4BFB3005865A5 /* Debug */,
+				457A4C3E28E4BFB3005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4C3F28E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-KullanimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4C4028E4BFB3005865A5 /* Debug */,
+				457A4C4128E4BFB3005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457A4C4228E4BFB3005865A5 /* Build configuration list for PBXNativeTarget "6-TabBar-KullanimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457A4C4328E4BFB3005865A5 /* Debug */,
+				457A4C4428E4BFB3005865A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457A4C1028E4BFB1005865A5 /* Project object */;
+}
